@@ -14,6 +14,7 @@ public class CustomObjectWrapper implements org.apache.ibatis.reflection.wrapper
     this.collection = collection;
   }
   
+  @Override
   public Object get(PropertyTokenizer prop) {
     // TODO Auto-generated method stub
     return null;

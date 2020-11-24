@@ -16,12 +16,10 @@
 package org.apache.ibatis.session;
 
 /**
+ * 分页用，记录限制
  * @author Clinton Begin
  */
-/**
- * 分页用，记录限制
- *
- */
+
 public class RowBounds {
 
   public static final int NO_ROW_OFFSET = 0;

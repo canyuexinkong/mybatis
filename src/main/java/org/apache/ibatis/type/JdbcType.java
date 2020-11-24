@@ -28,10 +28,10 @@ import java.util.Map;
  */
 public enum JdbcType {
   /*
+   * 就是包装一下java.sql.Types，便于sql数据类型与java数据类型之间的转化
    * This is added to enable basic support for the
    * ARRAY data type - but a custom type handler is still required
    */
-  //就是包装一下java.sql.Types
   ARRAY(Types.ARRAY),
   BIT(Types.BIT),
   TINYINT(Types.TINYINT),
